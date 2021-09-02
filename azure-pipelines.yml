@@ -26,10 +26,10 @@ stages:
     displayName: Job1
     pool:
       name: Default
-      steps:
-      - task: VSTest@2
-        inputs:
-          testSelector: 'testAssemblies'
-          testAssemblyVer2: '**\ProjectSuite1.pjs'
-          searchFolder: '$(System.DefaultWorkingDirectory)'
-          pathtoCustomTestAdapters: 'C:\pandaagent_new'
+    steps:
+    - task: VSTest@2
+      inputs:
+        testSelector: 'testAssemblies'
+        testAssemblyVer2: '**\ProjectSuite1.pjs'
+        searchFolder: '$(System.DefaultWorkingDirectory)'
+        pathtoCustomTestAdapters: 'C:\pandaagent_new'
