@@ -1,0 +1,35 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+name: Build1
+
+trigger:
+  - main
+
+resources:
+  repositories:
+    - repository: MyGitHubRepo 
+      type : github
+      endpoint: connection
+      name: JuliaBern/ProjectSuite1
+
+      steps:
+        - checkout: MyGitHubRepo 
+  
+stages:
+- stage: QA
+  displayName: QA
+  jobs:
+  - job: Job1
+    displayName: Job1
+    pool:
+      name: Default
+      steps:
+      - task: VSTest@2
+        inputs:
+          testSelector: 'testAssemblies'
+          testAssemblyVer2: '**\*.pjs'
+          searchFolder: '$(System.DefaultWorkingDirectory)'
+          pathtoCustomTestAdapters: 'C:\pandaagent_new'
