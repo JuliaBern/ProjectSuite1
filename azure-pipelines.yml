@@ -12,7 +12,7 @@ resources:
   repositories:
     - repository: MyGitHubRepo 
       type : github
-      endpoint: connection
+      endpoint: JuliaBern
       name: JuliaBern/ProjectSuite1
 
       steps:
