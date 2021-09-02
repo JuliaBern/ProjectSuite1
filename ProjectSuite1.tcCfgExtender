@@ -32,9 +32,12 @@
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
+							<Node name="{18d21374-749a-4b12-9591-aeba7c5332a9}"/>
 							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
 								<Prp name="key" type="S" value="{95787690-890B-4CD5-8763-01E2B4C16D28}"/>
 							</Node>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}"/>
+							<Node name="{98f67204-5328-4e0e-99f5-6d1b1e6d4971}"/>
 							<Prp name="editor" type="S" value="{DF213886-4AA1-4AAF-A86F-69921E3A6FF8}"/>
 							<Prp name="focused" type="S" value="{95787690-890B-4CD5-8763-01E2B4C16D28}"/>
 						</Node>
@@ -91,6 +94,8 @@
 					</Node>
 					<Node name="5">
 						<Node name="editor">
+							<Node name="{18d21374-749a-4b12-9591-aeba7c5332a9}"/>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}"/>
 							<Node name="{f8a33ae1-4de7-4d58-b41e-fe35fd36deba}">
 								<Prp name="key" type="S" value="{ADD7F6E1-4013-4FE4-A4CC-41C5C1646371}"/>
 							</Node>
@@ -145,12 +150,17 @@
 					<Prp name="width" type="I" value="0"/>
 				</Node>
 			</Node>
+			<Node name="{dadeeeea-7bf7-4f7b-98d1-fc8ffe5fedae}">
+				<Node name="{02542b04-194a-4903-b727-27ddea5f3f24}"/>
+				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
+			</Node>
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="projectsuite1">
 					<Node name="testproject1">
 						<Node name="advanced">
 							<Node name="script"/>
 						</Node>
+						<Node name="testedapps"/>
 					</Node>
 				</Node>
 			</Node>

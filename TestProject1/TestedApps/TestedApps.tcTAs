@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{70E0A6B7-4DA9-4671-929A-8FED6B129E8C}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{70E0A6B7-4DA9-4671-929A-8FED6B129E8C}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
 	<config nodeName="TestedApps" />
 	<testData />
 	<data />
 	<children>
-		<child key="{94B649F4-805A-4273-A61B-F02914C8439C}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+		<child key="{94B649F4-805A-4273-A61B-F02914C8439C}">
 			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" userName="" password="" domain="" />
@@ -17,5 +17,4 @@
 			<data />
 		</child>
 	</children>
-	<folders />
 </Root>
